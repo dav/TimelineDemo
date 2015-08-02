@@ -14,6 +14,14 @@
 		572297C41B6D3727004E44BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572297C31B6D3727004E44BB /* Images.xcassets */; };
 		572297C71B6D3727004E44BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572297C51B6D3727004E44BB /* LaunchScreen.xib */; };
 		572297D31B6D3727004E44BB /* TimelineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297D21B6D3727004E44BB /* TimelineDemoTests.m */; };
+		572297DE1B6D37DF004E44BB /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297DD1B6D37DF004E44BB /* TimelineViewController.m */; };
+		572297E11B6D3801004E44BB /* TimelineDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297E01B6D3801004E44BB /* TimelineDataSource.m */; };
+		572297E41B6D430E004E44BB /* TimelineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297E31B6D430E004E44BB /* TimelineItem.m */; };
+		572297EE1B6D5868004E44BB /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297ED1B6D5868004E44BB /* NSDate+Additions.m */; };
+		572297F11B6D5A28004E44BB /* TimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297F01B6D5A28004E44BB /* TimelineCell.m */; };
+		572297F41B6E584E004E44BB /* TimelineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297F31B6E584E004E44BB /* TimelineLayout.m */; };
+		572297F71B6E5EFB004E44BB /* NSMutableArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297F61B6E5EFB004E44BB /* NSMutableArray+Additions.m */; };
+		572297FA1B6E70E0004E44BB /* ExerciseGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 572297F91B6E70E0004E44BB /* ExerciseGroupTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,22 @@
 		572297CC1B6D3727004E44BB /* TimelineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		572297D11B6D3727004E44BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572297D21B6D3727004E44BB /* TimelineDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimelineDemoTests.m; sourceTree = "<group>"; };
+		572297DC1B6D37DF004E44BB /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		572297DD1B6D37DF004E44BB /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		572297DF1B6D3801004E44BB /* TimelineDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineDataSource.h; sourceTree = "<group>"; };
+		572297E01B6D3801004E44BB /* TimelineDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineDataSource.m; sourceTree = "<group>"; };
+		572297E21B6D430E004E44BB /* TimelineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineItem.h; sourceTree = "<group>"; };
+		572297E31B6D430E004E44BB /* TimelineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineItem.m; sourceTree = "<group>"; };
+		572297EC1B6D5868004E44BB /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
+		572297ED1B6D5868004E44BB /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
+		572297EF1B6D5A28004E44BB /* TimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineCell.h; sourceTree = "<group>"; };
+		572297F01B6D5A28004E44BB /* TimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineCell.m; sourceTree = "<group>"; };
+		572297F21B6E584E004E44BB /* TimelineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineLayout.h; sourceTree = "<group>"; };
+		572297F31B6E584E004E44BB /* TimelineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineLayout.m; sourceTree = "<group>"; };
+		572297F51B6E5EFB004E44BB /* NSMutableArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Additions.h"; sourceTree = "<group>"; };
+		572297F61B6E5EFB004E44BB /* NSMutableArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Additions.m"; sourceTree = "<group>"; };
+		572297F81B6E70E0004E44BB /* ExerciseGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseGroupTableViewCell.h; sourceTree = "<group>"; };
+		572297F91B6E70E0004E44BB /* ExerciseGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseGroupTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,8 @@
 		572297B51B6D3727004E44BB /* TimelineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				572297DC1B6D37DF004E44BB /* TimelineViewController.h */,
+				572297DD1B6D37DF004E44BB /* TimelineViewController.m */,
 				572297BA1B6D3727004E44BB /* AppDelegate.h */,
 				572297BB1B6D3727004E44BB /* AppDelegate.m */,
 				572297BD1B6D3727004E44BB /* ViewController.h */,
@@ -89,6 +115,20 @@
 				572297C31B6D3727004E44BB /* Images.xcassets */,
 				572297C51B6D3727004E44BB /* LaunchScreen.xib */,
 				572297B61B6D3727004E44BB /* Supporting Files */,
+				572297DF1B6D3801004E44BB /* TimelineDataSource.h */,
+				572297E01B6D3801004E44BB /* TimelineDataSource.m */,
+				572297E21B6D430E004E44BB /* TimelineItem.h */,
+				572297E31B6D430E004E44BB /* TimelineItem.m */,
+				572297EF1B6D5A28004E44BB /* TimelineCell.h */,
+				572297F01B6D5A28004E44BB /* TimelineCell.m */,
+				572297F21B6E584E004E44BB /* TimelineLayout.h */,
+				572297F31B6E584E004E44BB /* TimelineLayout.m */,
+				572297EC1B6D5868004E44BB /* NSDate+Additions.h */,
+				572297ED1B6D5868004E44BB /* NSDate+Additions.m */,
+				572297F51B6E5EFB004E44BB /* NSMutableArray+Additions.h */,
+				572297F61B6E5EFB004E44BB /* NSMutableArray+Additions.m */,
+				572297F81B6E70E0004E44BB /* ExerciseGroupTableViewCell.h */,
+				572297F91B6E70E0004E44BB /* ExerciseGroupTableViewCell.m */,
 			);
 			path = TimelineDemo;
 			sourceTree = "<group>";
@@ -219,9 +259,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572297F11B6D5A28004E44BB /* TimelineCell.m in Sources */,
 				572297BF1B6D3727004E44BB /* ViewController.m in Sources */,
+				572297DE1B6D37DF004E44BB /* TimelineViewController.m in Sources */,
 				572297BC1B6D3727004E44BB /* AppDelegate.m in Sources */,
+				572297FA1B6E70E0004E44BB /* ExerciseGroupTableViewCell.m in Sources */,
+				572297E41B6D430E004E44BB /* TimelineItem.m in Sources */,
+				572297EE1B6D5868004E44BB /* NSDate+Additions.m in Sources */,
 				572297B91B6D3727004E44BB /* main.m in Sources */,
+				572297F41B6E584E004E44BB /* TimelineLayout.m in Sources */,
+				572297E11B6D3801004E44BB /* TimelineDataSource.m in Sources */,
+				572297F71B6E5EFB004E44BB /* NSMutableArray+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +466,7 @@
 				572297D81B6D3727004E44BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		572297D91B6D3727004E44BB /* Build configuration list for PBXNativeTarget "TimelineDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +475,7 @@
 				572297DB1B6D3727004E44BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

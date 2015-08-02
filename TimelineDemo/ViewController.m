@@ -1,12 +1,7 @@
-//
-//  ViewController.m
-//  TimelineDemo
-//
-//  Created by Dav on 8/1/15.
-//  Copyright (c) 2015 Sekai No. All rights reserved.
-//
-
 #import "ViewController.h"
+#import "TimelineDataSource.h"
+#import "TimelineViewController.h"
+#import "TimelineCell.h"
 
 @interface ViewController ()
 
@@ -14,12 +9,28 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void) viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CGRect frame = self.view.bounds;
+    CGSize timelineCellSize = [TimelineCell size];
+    frame.origin.y = frame.size.height - timelineCellSize.height;
+    frame.size.height = timelineCellSize.height;
+    
+    UIView* timelineContainerView = [[UIView alloc] initWithFrame:frame];
+    [self.view addSubview:timelineContainerView];
+    
+    TimelineDataSource *dataSource = [TimelineDataSource new];
+    [dataSource generateSampleData];
+
+    TimelineViewController *timelineVC = [[TimelineViewController alloc] initWithDataSource:dataSource];
+
+    [self addChildViewController:timelineVC];
+    [timelineContainerView addSubview:timelineVC.view];
+    [timelineVC didMoveToParentViewController:self];
 }
 
-- (void)didReceiveMemoryWarning {
+- (void) didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
